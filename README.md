@@ -14,15 +14,11 @@ To run this project in Docker:
 
   4. Build the Docker image using the following command:
 
-    docker build -t qap2sdat .
+    docker build -t sdat_api .
 
   5. Launch the Docker container using this command:
 
-    docker run -p 8080:8080 qap2sdat
-    
-  Alternatively, you can run the project through Docker Desktop with the following command:
-
-    docker-compose up
+    docker run sdat_api
     
 Once the container is up and running, the API should be accessible at http://localhost:8080.
 
